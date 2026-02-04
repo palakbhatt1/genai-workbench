@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments / installations
+venv/
+.venv/
+
+
+# HuggingFace / ML models (CRITICAL)
+Models/
+models/
+.cache/
+hf_cache/
+*.bin
+*.pt
+*.safetensors
+
+# External libraries / Python internals (CRITICAL)
+Lib/
+DLLs/
+site-packages/
+Python310/
+site-packages/
+Typeshed Stubs/
+External Libraries/
+
+# Data & outputs
+data/
+datasets/
+outputs/
+
+# IDE / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
